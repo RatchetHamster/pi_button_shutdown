@@ -1,5 +1,5 @@
 #Move .service file to correct location
-sudo mv pi_button_shutdown.service /etc/systemd/system/
+sudo mv /home/pi/python/pi_button_shutdown/pi_button_shutdown.service /etc/systemd/system/
 
 #Enable service at boot
 sudo systemctl daemon-reload
