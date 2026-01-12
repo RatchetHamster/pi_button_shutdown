@@ -1,6 +1,6 @@
 ## To Update  
-cd /home/pi/python/pi_button_shutdown
-git pull
+cd /home/pi/python/pi_button_shutdown  
+git pull  
 sudo reboot  
 
 ## To Install  
