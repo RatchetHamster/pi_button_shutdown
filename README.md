@@ -14,3 +14,16 @@ sudo mv /home/pi/python/pi_button_shutdown/pi_button_shutdown.service /etc/syste
 sudo systemctl daemon-reload  
 sudo systemctl enable pi_button_shutdown  
 sudo systemctl start pi_button_shutdown  
+
+#Create logrotate limit on log file  
+sudo nano /etc/logrotate.d/shutdown_button  
+into the file put:  
+/var/log/shutdown_button.log  
+{  
+    weekly  
+    minsize 1M  
+    maxsize 10M  
+    rotate 4  
+    missingok  
+    notifempty  
+}  
