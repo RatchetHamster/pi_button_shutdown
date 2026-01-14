@@ -3,7 +3,7 @@ Description=Button Power Control (gpiozero)
 After=multi-user.target
 
 [Service]
-ExecStart=/usr/bin/python3 /home/pi/python/pi_button_shutdown/main.py
+ExecStart=/bin/sh -c '/usr/bin/python3 /home/pi/python/pi_button_shutdown/main.py > /var/log/shutdown_button.log 2>&1'
 Restart=always
 User=root
 
