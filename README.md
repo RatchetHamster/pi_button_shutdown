@@ -1,3 +1,5 @@
+Log Stored at: /var/log/shutdown_button.log
+
 ## To Update  
 cd /home/pi/python/pi_button_shutdown  
 git pull  
