@@ -6,7 +6,7 @@ git pull
 sudo reboot  
 
 ## To Install  
-cd into /home/pi/python (if python doesn't exist, make it)  
+cd into /home/pi/python (if python doesn't exist, make it using mkrid)  
 git clone this repo  
 
 #Move .service file to correct location  
