@@ -1,3 +1,5 @@
+Description: momentary switch on pin23 to ground. Short press is reboot, long press is shutdown  
+
 Log Stored at: /var/log/shutdown_button.log
 
 ## To Update  
